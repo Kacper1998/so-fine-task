@@ -17,7 +17,7 @@
 
 @media screen and (max-width: 762px) {
   .slideshow {
-    height: 150vh;
+    height: 24vh;
     border: 2px solid red;
   }
 }
