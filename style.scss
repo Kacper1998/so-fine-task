@@ -23,7 +23,9 @@
 @media screen and (max-width: 762px) {
   .slideshow {
     height: 50vh;
-    border: 2px solid red;
+  }
+  .svg-logo {
+    width: 5rem;
   }
 }
 
@@ -63,6 +65,7 @@
 
 .navbar-toggler {
   background: #fff;
+  margin-right: 1rem;
 }
 
 .navbar-nav {
