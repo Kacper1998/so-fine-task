@@ -310,7 +310,7 @@ html {
   .navbar .icon {
     display: block;
     position: absolute;
-    top: 13px;
+    top: 30px;
     right: 35px;
   }
   .navbar.show {
