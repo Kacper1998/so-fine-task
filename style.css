@@ -195,7 +195,7 @@ html {
   font-weight: 200;
   font-size: 1.5vw;
   font-family: "Roboto", sans-serif;
-  margin-top: -2rem;
+  margin-top: 12px;
   text-align: left;
 }
 
@@ -228,7 +228,6 @@ html {
   font-weight: 200;
   font-size: 1.5vw;
   font-family: "Roboto", sans-serif;
-  margin-top: -2rem;
   text-align: left;
 }
 
@@ -243,7 +242,6 @@ html {
   font-size: 7vw;
   font-family: "Roboto", sans-serif;
   margin-left: 3rem;
-  margin-bottom: -3rem;
   text-align: left;
 }
 
