@@ -2,26 +2,14 @@ var slideIndex = 0;
 
 showSlide();
 
-var timer = setInterval(showSlide, 2000);
+var timer = setInterval(showSlide, 3000);
 
 var slideContainer = document.getElementById('slideshow-container');
 var slideControl = document.getElementById('slide-control');
 
-slideContainer.onmouseover = function() {
-	clearInterval(timer);
-}
 
-slideControl.onmouseover = function() {
-	clearInterval(timer);
-}
 
-slideContainer.onmouseleave = function() {
-	// timer = setInterval(showSlide, 2000);
-}
 
-slideControl.onmouseleave = function() {
-	// timer = setInterval(showSlide, 2000);
-}
 
 function showSlide() {
 	var i;
@@ -31,7 +19,7 @@ function showSlide() {
 		slides[i].style.display = 'none';
 	}
 	for (var i = 0; i < dots.length; i++) {
-		dots[i].className = dots[i].className.replace(" active", "");
+		dots[i].className = dots[i].className.replace(" active", "active");
 	}
 	slideIndex++;
 	if (slideIndex > slides.length) slideIndex = 1;
