@@ -7,7 +7,6 @@
 
 * {
   box-sizing: border-box;
-  max-width: 100%;
 }
 //slider code here
 :root {
@@ -166,15 +165,6 @@ html {
   z-index: 9;
   color: var(--white);
 }
-.caption::after {
-  display: inline-block;
-  content: "";
-  border-top: 3rem solid black;
-  width: 4rem;
-  margin: 0 1rem;
-  transform: translateY(-1rem);
-}
-
 .span-element {
   font-size: 4rem;
   color: var(--white);
@@ -525,6 +515,7 @@ text-align: left;
 
 .flex-item-left-3 {
   padding: 5px;
+  max-width: 100%;
   flex: 66.6%;
   background-image: url("04_koloryzacja.jpg");
   background-size: cover;
